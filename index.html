@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
 </head>
 <body>
     <div class="background-blob"></div>
@@ -155,13 +156,16 @@
                 return;
             }
 
-            items.forEach((item) => {
+            items.forEach((item, index) => {
                 const card = document.createElement('article');
                 card.className = 'canvas-card';
+                const isM3u8 = item.url && item.url.toLowerCase().endsWith('.m3u8');
+                const videoId = "vid_" + Math.random().toString(36).substr(2, 9) + "_" + index;
+                
                 card.innerHTML = `
                     <div class="video-preview">
-                        <video loop muted playsinline onplay="this.volume=0" onmouseover="this.play()" onmouseout="this.pause()">
-                            <source src="${item.url}" type="video/mp4">
+                        <video id="${videoId}" loop muted playsinline onplay="this.volume=0" onmouseover="this.play()" onmouseout="this.pause()">
+                            ${!isM3u8 ? `<source src="${item.url}" type="video/mp4">` : ''}
                         </video>
                     </div>
                     <div class="card-info">
@@ -170,6 +174,17 @@
                     </div>
                 `;
                 grid.appendChild(card);
+                
+                if (isM3u8) {
+                    const video = document.getElementById(videoId);
+                    if (Hls.isSupported()) {
+                        const hls = new Hls();
+                        hls.loadSource(item.url);
+                        hls.attachMedia(video);
+                    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                        video.src = item.url;
+                    }
+                }
             });
         }
 
