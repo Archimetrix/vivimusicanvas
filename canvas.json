@@ -34,6 +34,21 @@
       "song": "Good Goodbye",
       "artist": "HWASA",
       "url": "https://vivimusicanvas.vercel.app/Song/8.mp4"
+    },
+    {
+      "song": "Annihilate",
+      "artist": "Metro Boomin",
+      "url": "https://vivimusicanvas.vercel.app/Song/7.m3u8"
+    },
+    {
+      "song": "Am I Dreaming",
+      "artist": "Metro Boomin",
+      "url": "https://vivimusicanvas.vercel.app/Song/7.m3u8"
+    },
+    {
+      "song": "All The Way Live",
+      "artist": "Metro Boomin",
+      "url": "https://vivimusicanvas.vercel.app/Song/7.m3u8"
     }
   ]
 }
