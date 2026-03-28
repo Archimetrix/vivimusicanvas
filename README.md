@@ -40,3 +40,7 @@ git push
 ```
 
 That's it! Vercel will automatically redeploy your changes. The next time you play that song in ViviMusic, your custom video will automatically be fetched and looped in the background!
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
