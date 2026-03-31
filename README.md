@@ -36,6 +36,13 @@ Once you have uploaded your video and updated `canvas.json`, simply commit your 
 > [!IMPORTANT]
 > When opening a **Pull Request**, please include the **original song/album link** (YouTube Music, Spotify, or similar) in the description. This helps us verify the metadata and ensure the canvas matches the correct track.
 
+**Pull Request Example:**
+> **Title:** `feat: added canvas for Blinding Lights by The Weeknd`
+> **Description:**
+> - Added `Song/20.m3u8`
+> - Updated `canvas.json` mapping for "Blinding Lights"
+> - **Original Link:** https://music.youtube.com/watch?v=4NRXx6U8ABQ
+
 ```bash
 git add .
 git commit -m "feat: added canvas for Song Title"
@@ -43,12 +50,6 @@ git push
 ```
 
 That's it! Vercel will automatically redeploy your changes. The next time you play that song in ViviMusic, your custom video will automatically be fetched and looped in the background!
-
-## Special Thanks
-
-- [koiverse/ArchiveTune](https://github.com/koiverse/ArchiveTune) - for canvas inspiration
-- [ibratabian17/YouLyPlus](https://github.com/ibratabian17/YouLyPlus) - for lyrics inspiration
-- [monochrome-music/monochrome](https://github.com/monochrome-music/monochrome) - for canvas inspiration
 
 ## License
 
