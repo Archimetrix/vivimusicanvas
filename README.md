@@ -51,6 +51,21 @@ git push
 
 That's it! Vercel will automatically redeploy your changes. The next time you play that song in ViviMusic, your custom video will automatically be fetched and looped in the background!
 
+## Continuous Integration
+
+To ensure the integrity of the `canvas.json` and prevent broken links, we have an automated **Validation Bot** that checks every Pull Request:
+
+1.  **JSON Syntax**: Ensures the file is correctly formatted.
+2.  **Schema Check**: Verifies that `song`, `artist`, and `url` fields are present for every entry.
+3.  **Local File Check**: Verifies that the video file referenced in the URL actually exists in the `Song/` or `Album/` directory.
+4.  **No Duplicates**: Ensures that no two entries have same (song, artist) combination.
+5.  **Format Check**: Ensures URLs end in `.mp4` or `.m3u8`.
+
+You can also run this check locally if you have Node.js installed:
+```bash
+node scripts/validate_canvas.js
+```
+
 ## License
 
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
