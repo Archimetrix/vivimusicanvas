@@ -1059,56 +1059,62 @@
     {
       "song": "Funk Sereno",
       "artist": "Dysmane",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/2.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/2.m3u8",
       "album": "FUNK SERENO"
     },
     {
       "song": "Funk Sereno(Slowed)",
       "artist": "Dysmane",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/2.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/2.m3u8",
       "album": "FUNK SERENO"
     },
     {
       "song": "Funk Sereno(Super Slowed)",
       "artist": "Dysmane",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/2.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/2.m3u8",
       "album": "FUNK SERENO"
     },
     {
       "song": "Funk Sereno(sped Up)",
       "artist": "Dysmane",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/2.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/2.m3u8",
       "album": "FUNK SERENO"
     },
     {
       "song": "Risa",
       "artist": "Nateki",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/3.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/3.m3u8",
       "album": "Risa"
     },
     {
       "song": "Risa(Sped Up)",
       "artist": "Nateki",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/3.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/3.m3u8",
       "album": "Risa"
     },
     {
       "song": "Risa(Slowed)",
       "artist": "Nateki",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/3.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/3.m3u8",
       "album": "Risa"
     },
     {
       "song": "Risa(Super Slowed)",
       "artist": "Nateki",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/3.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/3.m3u8",
       "album": "Risa"
     },
     {
       "song": "Risa(Ultra Slowed)",
       "artist": "Nateki",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Album/3.m3u8",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/3.m3u8",
       "album": "Risa"
+    },
+    {
+      "song": "Mulakaat",
+      "artist": "Mitraz",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/33.m3u8",
+      "album": "Zehen"
     },
     {
       "song": "EYES ON US",
