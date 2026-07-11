@@ -1111,16 +1111,28 @@
       "album": "Risa"
     },
     {
+      "song": "EYES ON US",
+      "artist": "Jon Keith",
+      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Song/32.m3u8",
+      "album": "EYES ON US"
+    },
+    {
       "song": "Mulakaat",
       "artist": "Mitraz",
       "url": "https://vivimusicanvas-q75m.vercel.app/Album/4.m3u8",
       "album": "Zehen"
     },
     {
-      "song": "EYES ON US",
-      "artist": "Jon Keith",
-      "url": "https://vivimusicanvas.mkmdevilmi.workers.dev/Song/32.m3u8",
-      "album": "EYES ON US"
+      "song": "Gulaab",
+      "artist": "Mitraz",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/4.m3u8",
+      "album": "Zehen"
+    },
+    {
+      "song": "Zehen",
+      "artist": "Mitraz",
+      "url": "https://vivimusicanvas-q75m.vercel.app/Album/4.m3u8",
+      "album": "Zehen"
     }
   ]
 }
