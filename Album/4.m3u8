@@ -4,9 +4,9 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 #EXTINF:2.000000,
-https://cdn.jsdelivr.net/gh/Archimetrix/canvas-storage/blob/main/Album/4zehen/4_000.ts
+https://cdn.jsdelivr.net/gh/Archimetrix/canvas-storage@main/Album/4zehen/4_000.ts
 #EXTINF:2.000000,
-https://cdn.jsdelivr.net/gh/Archimetrix/canvas-storage/blob/main/Album/4zehen/4_001.ts
+https://cdn.jsdelivr.net/gh/Archimetrix/canvas-storage@main/Album/4zehen/4_001.ts
 #EXTINF:1.500000,
-https://cdn.jsdelivr.net/gh/Archimetrix/canvas-storage/blob/main/Album/4zehen/4_002.ts
+https://cdn.jsdelivr.net/gh/Archimetrix/canvas-storage@main/Album/4zehen/4_002.ts
 #EXT-X-ENDLIST
